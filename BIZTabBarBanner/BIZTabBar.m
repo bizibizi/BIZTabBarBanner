@@ -64,7 +64,7 @@
 
 - (void)updateBanner
 {
-    self.isVisibleBanner? [self addSubview:self.bannerView] : [self.bannerView removeFromSuperview];
+    self.isBannerVisible? [self addSubview:self.bannerView] : [self.bannerView removeFromSuperview];
     CGFloat y = self.frameForBanner.origin.y - kTabBarHeight - 1; // 1 is shadow height
     self.bannerView.frame = CGRectMake(self.frameForBanner.origin.x, y, self.frameForBanner.size.width, self.frameForBanner.size.height);
 }
@@ -80,9 +80,9 @@
     [self setNeedsLayout];
 }
 
-- (void)setVisibleBanner:(BOOL)visibleBanner
+- (void)setBannerVisible:(BOOL)bannerVisible
 {
-    _visibleBanner = visibleBanner;
+    _bannerVisible = bannerVisible;
     [self setNeedsLayout];
 }
 

@@ -20,7 +20,7 @@
 
 - (IBAction)hideButtonAction:(UIButton *)sender
 {
-    ((BIZTabBar *)self.tabBarController.tabBar).visibleBanner = NO;
+    ((BIZTabBar *)self.tabBarController.tabBar).bannerVisible = NO;
 }
 
 

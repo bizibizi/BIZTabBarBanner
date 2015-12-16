@@ -11,5 +11,5 @@
 
 @interface BIZTabBar : UITabBar
 @property (nonatomic, strong) UIView *bannerView;
-@property (nonatomic, getter=isVisibleBanner) BOOL visibleBanner;
+@property (nonatomic, getter=isBannerVisible) BOOL bannerVisible;
 @end

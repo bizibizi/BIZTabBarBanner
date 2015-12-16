@@ -33,7 +33,6 @@
     banner.layer.cornerRadius = 10;
     banner.layer.masksToBounds = YES;
     
-    
     //Set banner
     ((BIZTabBar *)self.tabBar).bannerView = banner;
 }
