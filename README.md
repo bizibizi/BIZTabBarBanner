@@ -16,9 +16,9 @@ BIZTabBarBanner is a subclass of UITabBar that adds View over tabbar within UITa
 
 # Usage
 
- - Create subclass of ```UITabBarController``` 
- - Set it's tabbar to ```BIZTabBar``` class
- - ```#import "BIZTabBarBanner.h"``` to subclass of ```UITabBarController``` 
+- Create subclass of ```UITabBarController``` 
+- Set it's tabbar to ```BIZTabBar``` class
+- ```#import "BIZTabBarBanner.h"``` to subclass of ```UITabBarController``` 
 - Create custom UIView that will be used as a bannerView.
 - Set it's frame and setup that.
 - Set that custom UIView to tabbar's bannerView.
