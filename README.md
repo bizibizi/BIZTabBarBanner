@@ -11,7 +11,12 @@ BIZTabBarBanner is a subclass of UITabBar that adds View over tabbar within UITa
 # Installation
 
 ### Manually
- - Copy BIZTabBarBanner folder to your project 
+- Copy ```Classes``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZTabBarBanner' 
+```
 
 
 # Usage
