@@ -26,8 +26,7 @@
 {
     [super viewDidLoad];
     
-    
-    //Create banner here
+    //Create banner
     BannerView *banner = [[BannerView alloc] initFromNib];
     banner.frame = CGRectMake(10, -10, self.view.frame.size.width - 20, 44);
     banner.layer.cornerRadius = 10;

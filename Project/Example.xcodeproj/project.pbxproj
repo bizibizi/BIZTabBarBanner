@@ -12,12 +12,12 @@
 		7E2237061C219941008DB11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237041C219941008DB11A /* Main.storyboard */; };
 		7E2237081C219941008DB11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237071C219941008DB11A /* Assets.xcassets */; };
 		7E22370B1C219941008DB11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237091C219941008DB11A /* LaunchScreen.storyboard */; };
-		7E4D15B31C21D18F009523ED /* BIZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D15B21C21D18F009523ED /* BIZTabBar.m */; settings = {ASSET_TAGS = (); }; };
 		7E4D15BD1C21D1AB009523ED /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D15B51C21D1AB009523ED /* BlueViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7E4D15BE1C21D1AB009523ED /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D15B81C21D1AB009523ED /* BannerView.m */; settings = {ASSET_TAGS = (); }; };
 		7E4D15BF1C21D1AB009523ED /* BannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E4D15B91C21D1AB009523ED /* BannerView.xib */; settings = {ASSET_TAGS = (); }; };
 		7E4D15C01C21D1AB009523ED /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D15BA1C21D1AB009523ED /* RedViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7E4D15C11C21D1AB009523ED /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D15BC1C21D1AB009523ED /* TabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		7E8719451C3B69F900619B68 /* BIZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8719441C3B69F900619B68 /* BIZTabBar.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,6 @@
 		7E2237071C219941008DB11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E22370A1C219941008DB11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E22370C1C219941008DB11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E4D15B11C21D18F009523ED /* BIZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZTabBar.h; sourceTree = "<group>"; };
-		7E4D15B21C21D18F009523ED /* BIZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZTabBar.m; sourceTree = "<group>"; };
 		7E4D15B41C21D1AB009523ED /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
 		7E4D15B51C21D1AB009523ED /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 		7E4D15B71C21D1AB009523ED /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
@@ -40,6 +38,8 @@
 		7E4D15BB1C21D1AB009523ED /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		7E4D15BC1C21D1AB009523ED /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		7E4D15C21C21D1FE009523ED /* RedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		7E8719431C3B69F900619B68 /* BIZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZTabBar.h; sourceTree = "<group>"; };
+		7E8719441C3B69F900619B68 /* BIZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		7E2236EF1C219941008DB11A = {
 			isa = PBXGroup;
 			children = (
-				7E4D15B01C21D18F009523ED /* BIZTabBarBanner */,
+				7E8719421C3B69F900619B68 /* Classes */,
 				7E2236FA1C219941008DB11A /* Example */,
 				7E2236F91C219941008DB11A /* Products */,
 			);
@@ -99,16 +99,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7E4D15B01C21D18F009523ED /* BIZTabBarBanner */ = {
-			isa = PBXGroup;
-			children = (
-				7E4D15B11C21D18F009523ED /* BIZTabBar.h */,
-				7E4D15B21C21D18F009523ED /* BIZTabBar.m */,
-			);
-			name = BIZTabBarBanner;
-			path = ../BIZTabBarBanner;
-			sourceTree = "<group>";
-		};
 		7E4D15B61C21D1AB009523ED /* CustomBannerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +107,16 @@
 				7E4D15B91C21D1AB009523ED /* BannerView.xib */,
 			);
 			path = CustomBannerView;
+			sourceTree = "<group>";
+		};
+		7E8719421C3B69F900619B68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E8719431C3B69F900619B68 /* BIZTabBar.h */,
+				7E8719441C3B69F900619B68 /* BIZTabBar.m */,
+			);
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +194,9 @@
 				7E2237001C219941008DB11A /* AppDelegate.m in Sources */,
 				7E2236FD1C219941008DB11A /* main.m in Sources */,
 				7E4D15BD1C21D1AB009523ED /* BlueViewController.m in Sources */,
+				7E8719451C3B69F900619B68 /* BIZTabBar.m in Sources */,
 				7E4D15BE1C21D1AB009523ED /* BannerView.m in Sources */,
 				7E4D15C01C21D1AB009523ED /* RedViewController.m in Sources */,
-				7E4D15B31C21D18F009523ED /* BIZTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
